@@ -1,0 +1,50 @@
+
+body {
+    background-color: lightgray;
+    font-family: 'Domine', serif;
+    
+}
+
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.music {
+    margin: 0 auto 15px auto;
+}
+
+#indexpic {
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.footer {
+    background-color: rgb(53, 52, 52);
+    color: cornsilk;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    height: 2.00rem;
+  }
+
+@media screen and (max-width: 640px) {
+    header {position: static;} 
+    #indexpic {width: 100%}
+  }
+  
+  @media screen and (max-width: 768px) {
+    #indexpic {width: 100%}
+  }
+  
+  @media screen and (max-width: 980px) {
+    #indexpic {width: 100%}
+  }

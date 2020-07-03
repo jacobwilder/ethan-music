@@ -5,7 +5,7 @@ body {
     
 }
 
-.card-title {
+.card-text {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
@@ -23,26 +23,6 @@ body {
   margin:5rem 5rem 5rem 5rem 
 }
 
-
-.footer {
-    background-color: rgb(53, 52, 52);
-    color: cornsilk;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    height: 2.00rem;
-  }
-
-@media screen and (max-width: 640px) {
-    header {position: static;} 
-    #indexpic {width: 100%}
-  }
-  
-  @media screen and (max-width: 768px) {
-    #indexpic {width: 100%}
-  }
-  
-  @media screen and (max-width: 980px) {
-    #indexpic {width: 100%}
-  }
+.card {
+  margin: 1rem 0 1rem 0
+}

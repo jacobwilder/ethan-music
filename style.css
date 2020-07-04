@@ -4,11 +4,16 @@ html {
 
 
 body {
-    background-color: #ffeea5;
-    font-family: 'Domine', serif;
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    
+    background-size: 75px 100px;
+    background-color: #feb408;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    background-attachment: fixed;
     
 }
 
@@ -22,7 +27,7 @@ body {
 } 
 
 .jumbotron {
-  background-color: #d6875b;
+  background-color: #ee6f37;
 }
 
 .card-text {
@@ -111,6 +116,17 @@ body {
 
   background: var(--bc);
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+}
+
+.footer {
+  background-color: #007890;
+  color: rgba(255, 255, 255, 0.685);
+  text-align: center;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+#footer-link {
+  color: #feb408
 }
 
 /* animations */

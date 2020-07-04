@@ -87,6 +87,7 @@ body {
   padding: 16px 32px;
 }
 
+/* --------------------- opening animations --------------------- t*/
 .block-effect {
   font-size: calc(8px + 6vw);
 }
@@ -118,17 +119,6 @@ body {
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
 }
 
-.footer {
-  background-color: #007890;
-  color: rgba(255, 255, 255, 0.685);
-  text-align: center;
-  padding: .5rem 1rem .5rem 1rem;
-}
-
-#footer-link {
-  color: #feb408
-}
-
 /* animations */
 @keyframes revealBlock {
   100% {
@@ -157,4 +147,16 @@ body {
     transform: translateX(100%);
   }
 
+}
+/* --------------------------------------------------------------- */
+
+.footer {
+  background-color: #007890;
+  color: rgba(255, 255, 255, 0.685);
+  text-align: center;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+#footer-link {
+  color: #feb408
 }

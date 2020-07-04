@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth
+}
+
 
 body {
     background-color: #ffeea5;
@@ -96,7 +100,6 @@ body {
   background: var(--bc);
   animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
 }
-
 
 /* animations */
 @keyframes revealBlock {

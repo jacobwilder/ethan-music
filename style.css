@@ -87,6 +87,28 @@ body {
   padding: 16px 32px;
 }
 
+.up-btn {
+  color: #6da393
+}
+
+.down-btn {
+  color: #007890
+}
+
+.down-btn:hover {
+  color: #6da393
+}
+
+.fa-chevron-down {
+  transition: transform .2s; /* Animation */
+  height:60px;
+  width:60px
+}
+
+.fa-chevron-down:hover {
+  transform: scale(1.5);
+}
+
 /* --------------------- opening animations --------------------- t*/
 .block-effect {
   font-size: calc(8px + 6vw);
@@ -155,6 +177,7 @@ body {
   color: rgba(255, 255, 255, 0.685);
   text-align: center;
   padding: .5rem 1rem .5rem 1rem;
+  position: relative;
 }
 
 #footer-link {
